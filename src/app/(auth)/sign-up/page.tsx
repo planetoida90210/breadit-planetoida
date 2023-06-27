@@ -5,7 +5,7 @@ import { ChevronLeft } from "lucide-react";
 import { buttonVariants } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 
-import SignIn from "@/components/SignIn";
+import SignUp from "@/components/SignUp";
 
 const page: FC = ({}) => {
   return (
@@ -15,7 +15,7 @@ const page: FC = ({}) => {
           <ChevronLeft className="mr-2 h-4 w-4" />
           Home
         </Link>
-        <SignIn />
+        <SignUp />
       </div>
     </div>
   );
